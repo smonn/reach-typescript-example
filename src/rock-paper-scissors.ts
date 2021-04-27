@@ -55,7 +55,7 @@ async function main() {
   const ctcAlice = accAlice.deploy(backend);
   const ctcBob = accBob.attach(backend, ctcAlice.getInfo());
 
-  console.log("info", await ctcAlice.getInfo());
+  // console.log("info", await ctcAlice.getInfo());
 
   const HAND = ["Rock", "Paper", "Scissors"];
   const OUTCOME = ["Bob wins", "Draw", "Alice wins"];
